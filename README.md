@@ -34,12 +34,12 @@ Description
 - "expect(component).toBe(something) is how we expect the test to go. (behavior)
 - You can create "stub" data to illustrate how the data should look like from backend.
 
-Functions
-.toBeTruthy() : Means something == true
-.toContain('something) : will check for substring or element of an array.
-.toBe('something') : Gives you an exact match.
-.toBeGreatherThan(2) : Self expained
-de.query(by.css('h1'))).toBe('alert button') : Checks the element in the dom (HTML) 
+Functions <br>
+.toBeTruthy() : Means something == true <br>
+.toContain('something) : will check for substring or element of an array. <br>
+.toBe('something') : Gives you an exact match. <br>
+.toBeGreatherThan(2) : Self expained <br>
+de.query(by.css('h1'))).toBe('alert button') : Checks the element in the dom (HTML)  <br>
 
 ## Download and convert files
 
