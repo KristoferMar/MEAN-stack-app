@@ -19,6 +19,10 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Angular testing
+
+How to use
+- "ng test" : Runs all test suites
+
 Info
 - Karma.config.js is the configuration file for running automative tests in our angular app. 
 - test.ts is our test file which is created for us by default 
@@ -28,8 +32,14 @@ Description
 - "Descripe" is the first keyword which describes our test suite. 
 - "It" is the keyword for the start of each test. 
 - "expect(component).toBe(something) is how we expect the test to go. (behavior)
+- You can create "stub" data to illustrate how the data should look like from backend.
 
-
+Functions
+.toBeTruthy() : Means something == true
+.toContain('something) : will check for substring or element of an array.
+.toBe('something') : Gives you an exact match.
+.toBeGreatherThan(2) : Self expained
+de.query(by.css('h1'))).toBe('alert button') : Checks the element in the dom (HTML) 
 
 ## Download and convert files
 
