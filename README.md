@@ -18,9 +18,18 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Angular testing
+Info
+- Karma.config.js is the configuration file for running automative tests in our angular app. 
+- test.ts is our test file which is created for us by default 
+- app.component.spec.ts file is our first acutal testfile. 
+ 
+Description
+- "Descripe" is the first keyword which describes our test suite. 
+- "It" is the keyword for the start of each test. 
+- "expect(component).toBe(something) is how we expect the test to go. (behavior)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
 
 ## Download and convert files
 
