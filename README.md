@@ -23,6 +23,9 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 How to use
 - "ng test" : Runs all test suites
 
+Find <br>
+Mean-stack-app --> src --> app --> app.component.spec.ts
+
 Info
 - Karma.config.js is the configuration file for running automative tests in our angular app. 
 - test.ts is our test file which is created for us by default 
