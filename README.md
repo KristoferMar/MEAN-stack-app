@@ -14,14 +14,15 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Data Management 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The follwoing functions are used to manipulate array's and data. <br>
+array.concat(array2) : Adds 2 arrays together & puts array2 last. <br>
 
 ## Angular testing
 
 How to use
-- "ng test" : Runs all test suites
+- `ng test` : Runs all test suites
 
 Find <br>
 Mean-stack-app --> src --> app --> app.component.spec.ts
