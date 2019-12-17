@@ -17,7 +17,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Data Management 
 
 The follwoing functions are used to manipulate array's and data. <br>
-array.concat(array2) : Adds 2 arrays together & puts array2 last. <br>
+
+- array.concat(array2) : Adds 2 arrays together & puts array2 last. <br>
 
 ## Angular testing
 
