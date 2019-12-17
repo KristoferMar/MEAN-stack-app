@@ -19,6 +19,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 The follwoing functions are used to manipulate array's and data. <br>
 
 - array.concat(array2) : Adds 2 arrays together & puts array2 last. <br>
+- array.filter(callback[, thisObject]) : Returns new filtered array. 
+
 
 ## Angular testing
 
